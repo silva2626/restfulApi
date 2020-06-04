@@ -1,0 +1,24 @@
+{
+    "name": "silva2626/api",
+    "description": "Apenas uma API de cursos para o estudos de SPA's",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Allison Silva",
+            "email": "allisonsilva1999@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "3.*",
+        "usmanhalalit/pixie": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Api\\" : "src/"
+        }
+    },
+    "scripts": {
+        "server":"php -S localhost:8000 -t public/"
+    }
+}
